@@ -1,0 +1,16 @@
+Expected Request:
+- Method: GET
+- Body:
+    - page?: number
+
+Expected Response:
+- Body:
+    - result: [
+        - id: string
+        - student_id: string
+        - reason: string
+        - is_deleted: boolean
+        - created_at: DateTime
+        - updated_at: DateTime
+      ]
+    - totalPages: number

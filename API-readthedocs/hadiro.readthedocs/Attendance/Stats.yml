@@ -1,0 +1,10 @@
+Expected Request:
+- Method: GET
+- Body:
+    - from: Date
+    - until: Date
+
+Expected Response:
+- Body:
+    - attendances: Date[]
+    - inattendances: ("TK" | "IZIN" | "SAKIT" | "DISPEN")[]

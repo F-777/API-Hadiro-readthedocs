@@ -1,0 +1,13 @@
+Expected Request:
+- Method: PUT
+- Body:
+    - attendance_id: string
+    - student_id: string
+
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - is_deleted: boolean
+    - created_at: DateTime
+    - updated_at: DateTime

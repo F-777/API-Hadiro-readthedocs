@@ -1,0 +1,12 @@
+Expected Request:
+- Method: DELETE
+- Body:
+    - attendance_id: string
+
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - is_deleted: true
+    - created_at: DateTime
+    - updated_at: DateTime

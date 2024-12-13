@@ -1,0 +1,14 @@
+Expected Request:
+- Method: DELETE
+- Body:
+    - inattendance_id: string
+
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - reason: string
+    - evidence_photo_path: string
+    - is_deleted: true
+    - created_at: DateTime
+    - updated_at: DateTime

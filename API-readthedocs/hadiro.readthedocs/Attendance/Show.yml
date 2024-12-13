@@ -1,0 +1,20 @@
+Expected Request:
+- Method: GET
+- Body:
+    - attendance_id: string
+
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - is_deleted: boolean
+    - created_at: DateTime
+    - updated_at: DateTime
+    - student: [
+        - id: string
+        - name: string
+        - grade: string
+        - class_code: string
+        - department: string
+        - photo_path: string
+    ]

@@ -1,0 +1,9 @@
+Expected Request:
+- Method: POST
+- Body:
+    - email: string
+    - otp: string
+
+Expected Response:
+- Body:
+    - token: string

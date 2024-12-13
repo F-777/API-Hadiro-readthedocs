@@ -1,0 +1,22 @@
+Expected Request:
+- Method: GET
+- Body:
+    - inattendance_id: string
+
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - reason: string
+    - evidence_photo_path: string
+    - is_deleted: boolean
+    - created_at: DateTime
+    - updated_at: DateTime
+    - student: [
+        - id: string
+        - name: string
+        - grade: string
+        - class_code: string
+        - department: string
+        - photo_path: string
+    ]

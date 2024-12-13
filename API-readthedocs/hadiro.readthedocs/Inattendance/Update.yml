@@ -1,0 +1,17 @@
+Expected Request:
+- Method: PUT
+- Body:
+    - inattendance_id: string
+    - student_id: string
+    - reason: string
+    - evidence_photo_path: string
+
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - reason: string
+    - evidence_photo_path: string
+    - is_deleted: boolean
+    - created_at: DateTime
+    - updated_at: DateTime

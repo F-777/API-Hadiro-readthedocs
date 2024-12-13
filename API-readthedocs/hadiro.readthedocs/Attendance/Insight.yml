@@ -1,0 +1,14 @@
+Expected Request:
+- Method: GET
+- Body:
+    - [No request body needed]
+
+Expected Response:
+- Body:
+    - [
+        - name: string
+        - latestAttendance: string
+        - attendanceRatio: string
+        - attendanceTimeAvg: string
+        - mostInattendanceReason: string
+      ]

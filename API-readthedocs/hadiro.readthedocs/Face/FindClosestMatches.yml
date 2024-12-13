@@ -1,0 +1,11 @@
+Expected Request:
+- Method: POST
+- Body:
+    - descriptor: Float32Array
+
+Expected Response:
+- Body:
+    - closestMatches: [
+        - label: string
+        - distance: number
+    ]

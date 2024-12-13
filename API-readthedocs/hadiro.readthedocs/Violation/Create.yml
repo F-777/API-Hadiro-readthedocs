@@ -1,0 +1,14 @@
+Expected Request:
+- Method: POST
+- Body:
+    - student_id: string
+    - reason: string
+
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - reason: string
+    - is_deleted: boolean
+    - created_at: DateTime
+    - updated_at: DateTime

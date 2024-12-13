@@ -1,0 +1,13 @@
+Expected Request:
+- Method: DELETE
+- Body:
+    - violation_id: string
+  
+Expected Response:
+- Body:
+    - id: string
+    - student_id: string
+    - reason: string
+    - is_deleted: true
+    - created_at: DateTime
+    - updated_at: DateTime

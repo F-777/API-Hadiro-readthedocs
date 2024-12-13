@@ -1,0 +1,22 @@
+Expected Request:
+- Method: GET
+- Body:
+    - page?: number
+    - grade?: string
+    - class_code?: string
+    - department?: string
+
+Expected Response:
+- Body:
+    - result: [
+        - id: string
+        - name: string
+        - grade: string
+        - class_code: string
+        - department: string
+        - photo_path: string
+        - is_deleted: boolean
+        - created_at: DateTime
+        - updated_at: DateTime
+      ]
+    - totalPages: number

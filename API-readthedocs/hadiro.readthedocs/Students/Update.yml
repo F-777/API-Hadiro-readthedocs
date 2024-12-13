@@ -1,0 +1,23 @@
+Expected Request:
+- Method: PUT
+- Body:
+   - student_id: string
+   - name: string
+   - grade: string
+   - class_code: string
+   - department: string
+   - descriptor: string
+   - photo_path: string
+
+Expected Response:
+- Body:
+    - id: string
+    - name: string
+    - grade: string
+    - class_code: string
+    - department: string
+    - descriptor: string
+    - photo_path: string
+    - is_deleted: boolean
+    - created_at: DateTime
+    - updated_at: DateTime

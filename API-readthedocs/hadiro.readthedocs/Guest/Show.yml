@@ -1,0 +1,17 @@
+Expect Request:
+- Method: GET
+- Body:
+    - guast_id: string
+
+Expected Response:
+- Body:
+    - id: string
+    - name: string
+    - instance: string
+    - intention: string
+    - problem: string
+    - phone_number: string
+    - photo_path: string
+    - is_deleted: boolean
+    - create_at: DateTime
+    - updated_at: DateTime

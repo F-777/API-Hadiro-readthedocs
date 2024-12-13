@@ -1,0 +1,17 @@
+Expected Reuest:
+- Method: DELETE
+- Body:
+    - guest_id: string
+
+Expected Response:
+- Body: 
+    - id: string
+    - name: string
+    - instance: string
+    - intention: string
+    - problem: string
+    - phone_number: string
+    - photo_path: string
+    - is_deleted: true 
+    - created_at: DateTime
+    - updated_at : DataTime
